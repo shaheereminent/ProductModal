@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Product Showcase</title>
+  </head>
+
+  <body>
+
+    <header class="hero">
+      <p class="eyebrow">MY STORE</p>
+      <h1>Choose Your Gear</h1>
+      <p>
+        Explore our collection and click a product to learn more.
+      </p>
+    </header>
+
+
+    <main class="products">
+
+      <!-- PRODUCT 1 -->
+      <article class="product-card">
+        <div class="product-icon">🎧</div>
+
+        <h2>Wireless Headphones</h2>
+
+        <p>
+          Premium wireless headphones with powerful sound
+          and all-day battery life.
+        </p>
+
+        <button class="details-btn" data-product="headphones">
+          View Details
+        </button>
+      </article>
+
+
+      <!-- PRODUCT 2 -->
+      <article class="product-card">
+        <div class="product-icon">⌨️</div>
+
+        <h2>Mechanical Keyboard</h2>
+
+        <p>
+          A satisfying mechanical keyboard designed for
+          work, gaming, and everything between.
+        </p>
+
+        <button class="details-btn" data-product="keyboard">
+          View Details
+        </button>
+      </article>
+
+
+      <!-- PRODUCT 3 -->
+      <article class="product-card">
+        <div class="product-icon">🖱️</div>
+
+        <h2>Gaming Mouse</h2>
+
+        <p>
+          Lightweight gaming mouse with precise tracking
+          and customizable controls.
+        </p>
+
+        <button class="details-btn" data-product="mouse">
+          View Details
+        </button>
+      </article>
+
+    </main>
+
+
+    <!-- =========================================
+         MODAL 1
+         ========================================= -->
+
+    <section class="modal hidden" data-product="headphones">
+
+      <button class="close-btn" data-product="headphones">
+        &times;
+      </button>
+
+      <div class="modal-icon">🎧</div>
+
+      <h2>Wireless Headphones</h2>
+
+      <p>
+        Experience rich, detailed audio without being
+        connected to your device.
+      </p>
+
+      <div class="specs">
+        <p><strong>Battery:</strong> 40 hours</p>
+        <p><strong>Connection:</strong> Bluetooth 5.3</p>
+        <p><strong>Weight:</strong> 245g</p>
+        <p><strong>Price:</strong> $129</p>
+      </div>
+
+      <button class="buy-btn">
+        Add to Cart
+      </button>
+
+    </section>
+
+
+    <!-- =========================================
+         MODAL 2
+         ========================================= -->
+
+    <section class="modal hidden" data-product="keyboard">
+
+      <button class="close-btn" data-product="keyboard">
+        &times;
+      </button>
+
+      <div class="modal-icon">⌨️</div>
+
+      <h2>Mechanical Keyboard</h2>
+
+      <p>
+        Enjoy a satisfying typing experience with
+        responsive mechanical switches.
+      </p>
+
+      <div class="specs">
+        <p><strong>Switches:</strong> Mechanical Red</p>
+        <p><strong>Connection:</strong> USB-C</p>
+        <p><strong>Layout:</strong> 75%</p>
+        <p><strong>Price:</strong> $99</p>
+      </div>
+
+      <button class="buy-btn">
+        Add to Cart
+      </button>
+
+    </section>
+
+
+    <!-- =========================================
+         MODAL 3
+         ========================================= -->
+
+    <section class="modal hidden" data-product="mouse">
+
+      <button class="close-btn" data-product="mouse">
+        &times;
+      </button>
+
+      <div class="modal-icon">🖱️</div>
+
+      <h2>Gaming Mouse</h2>
+
+      <p>
+        Built for speed and precision with an
+        ultra-lightweight design.
+      </p>
+
+      <div class="specs">
+        <p><strong>Sensor:</strong> 26,000 DPI</p>
+        <p><strong>Weight:</strong> 62g</p>
+        <p><strong>Buttons:</strong> 6</p>
+        <p><strong>Price:</strong> $79</p>
+      </div>
+
+      <button class="buy-btn">
+        Add to Cart
+      </button>
+
+    </section>
+
+
+    <!-- BACKGROUND OVERLAY -->
+
+    <div class="overlay hidden"></div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
