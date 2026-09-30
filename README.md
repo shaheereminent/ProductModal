@@ -1,6 +1,6 @@
 🛍️ Interactive Product Showcase Modal
 
-🔗 [LIVE DEMO]([https://github.com/shaheereminent/ProductModal/settings/pages](https://shaheereminent.github.io/ProductModal/))
+🔗 [LIVE DEMO](https://shaheereminent.github.io/ProductModal/)
 
 A small JavaScript practice project built to strengthen my understanding of DOM manipulation, event listeners, functions, data-* attributes, and modal interactions.
 
